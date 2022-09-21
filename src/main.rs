@@ -18,7 +18,7 @@ fn main() {
     */
     let _args : Vec<String> = std::env::args().collect();
     //println!("{}" , &args[1]);
-    let file = fs::read_to_string("/home/erik/Documents/Programming/Rust/Advent/src/day7.in").unwrap();
+    let file = fs::read_to_string("day7.in").unwrap();
     let mut res = 0;
 
     /* Day1
